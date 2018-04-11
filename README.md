@@ -10,7 +10,7 @@ this person is indeed celery
 
 # Short cut to check what jar doesn't exist in corp artifactory repo
 
-<h6>The corp repo has limited third party jars. The developer built the project locally connecting to Jcenter & others. But in build pipeline we shouldn't. To check what jar are missing:</h6>
+<h4>The corp repo has limited third party jars. The developer built the project locally connecting to Jcenter & others. But in build pipeline we shouldn't. To check what jar are missing:</h4>
 <p>Remove the maven pom "dependencyManagement". Doing so will unroll/unmarshal dependencies.</p>
 <a href="https://stackoverflow.com/a/37280943/6641032">Dependency Management VS dependencies</a>
 
