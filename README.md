@@ -6,3 +6,28 @@
 
 http://www.hollischuang.com/
 this person is indeed celery
+
+
+# Short cut to check what jar doesn't exist in corp artifactory repo
+
+<h3>The corp repo has limited third party jars. The developer built the project locally connecting to Jcenter & others. But in build pipeline we shouldn't. To check what jar are missing:</h3>
+* 
+
+```Gradle
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			groupId group
+			artifactId artifactName
+			version = snapshotVersion
+			artifact makeZip
+			
+			from components.java
+			pom.withXml {
+				Node pomNode = asNode()
+				pomNode.remove(pomNode.get("dependencyManagement"))
+			}
+		}
+	}
+}
+```
