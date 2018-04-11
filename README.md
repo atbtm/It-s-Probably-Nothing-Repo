@@ -32,3 +32,5 @@ publishing {
 	}
 }
 ```
+
+Now running the Gradle publish again will start to complain all missing jars instead of just the missing root level hierachy pom.
