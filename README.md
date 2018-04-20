@@ -34,3 +34,8 @@ publishing {
 ```
 
 Now running the Gradle publish again will start to complain all missing jars instead of just the missing root level hierachy pom.
+
+
+# HTTP长连接和短连接
+<a href="http://www.cnblogs.com/0201zcr/p/4694945.html">Link</a>
+<p>长连结saves connection time -- only disconnect upon time out. But heavier weight; 短链接 load大量时常用</p>
