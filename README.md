@@ -42,3 +42,27 @@ Now running the Gradle publish again will start to complain all missing jars ins
 
 # Front-end back-end decoupling
 https://blog.csdn.net/piantoutongyang/article/details/65446892
+
+# Why use Webpack
+<a href="https://blog.andrewray.me/webpack-when-to-use-and-why/">Long/full story</a>
+<p>It's a build tool to manage assets: Js, imgs, CSS etc.</p>
+<h4>Ver. 1</h4>
+```javascript
+<script src="jquery.min.js"></script>  
+<script src="jquery.some.plugin.js"></script>  
+<script src="main.js"></script>  
+```
+<h4>Ver. 2</h4>
+```javascript
+// build-script.js
+var scripts = [  
+    'jquery.min.js',
+    'jquery.some.plugin.js',
+    'main.js'
+].concat().uglify().writeTo('bundle.js');
+
+// Everything our app needs!
+<script src="bundle.js"></script>  
+```
+
+<a href="https://webpack.js.org/guides/getting-started/"><h4>Then the webpack way</h4></a>
