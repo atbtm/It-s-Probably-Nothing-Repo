@@ -47,12 +47,15 @@ https://blog.csdn.net/piantoutongyang/article/details/65446892
 <a href="https://blog.andrewray.me/webpack-when-to-use-and-why/">Long/full story</a>
 <p>It's a build tool to manage assets: Js, imgs, CSS etc.</p>
 <h4>Ver. 1</h4>
+
 ```javascript
 <script src="jquery.min.js"></script>  
 <script src="jquery.some.plugin.js"></script>  
 <script src="main.js"></script>  
 ```
+
 <h4>Ver. 2</h4>
+
 ```javascript
 // build-script.js
 var scripts = [  
