@@ -93,4 +93,4 @@ Notable implementations: ArrayList, Dequeue
 
 <p>Stack</p>
 Stack inherits Vector class, which many consider an overuse of inheritance. It's now legacy stack impl. Now should use Deque when need a stack.
-
+There are second opinions like <a href="http://baddotrobot.com/blog/2013/01/10/stack-vs-deque/">this</a>. Since Deque is NOT a stack. 
