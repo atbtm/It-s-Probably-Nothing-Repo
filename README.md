@@ -69,3 +69,28 @@ var scripts = [
 ```
 
 <a href="https://webpack.js.org/guides/getting-started/"><h4>Then the webpack way</h4></a>
+
+
+# Queue, Dequeue, and why not stack
+<p>Queue interface:</p>
+
+| Queue         | Throw Excpetion| Return flag val|
+| ------------- |:--------------:| --------------:|
+| Insert        | add(e)         | offer(e)       |
+| Remove        | remove()       | poll()         |
+| Check         | elment()       | peek()         |
+
+Notable implementations: ArrayList, Dequeue
+
+<p>Deque class:</p>
+<em>Two ended queue.</em>
+
+| Deque         | Throw Excpetion             | Return flag val            |
+| ------------- |:---------------------------:| --------------------------:|
+| Insert        | addFirst(e)/addLast(e)      | offerFirst(e)/offerLast(e) |
+| Remove        | removeFirst()/removeLast()  | pollFirst()/pollLast()     |
+| Check         | getFirst()/getLast()        | peekFirst()/peekLast()     |
+
+<p>Stack</p>
+Stack inherits Vector class, which many consider an overuse of inheritance. It's now legacy stack impl. Now should use Deque when need a stack.
+
