@@ -97,3 +97,15 @@ There are second opinions like <a href="http://baddotrobot.com/blog/2013/01/10/s
 
 # Leaning Toothpick Syndrome
 https://en.wikipedia.org/wiki/Leaning_toothpick_syndrome
+
+# Reservior Sampling
+When you are asked to pick N samples out of an unknown sized continous stream, how to ensure each sample is evenly distributed?
+
+If the size (L) is given, then the probability of each element being picked is simply N/L. But when data size is unknown (like streaming), or very large (like certain DB), different technique has to be employed.
+
+Reservoir Sampling: Fill the N places (base case). Then pick or discard a candidate such that the probability of getting picked is 1/i, where i is the index of candidate. Assume the previous N places are filled, the current candidate get selected this round should be N/i. If the candidate is picked, one of existing picked element is discarded randomly. Probability of a particular previously selected element will still be kept this around is then P(kept) = 1-P(discarded) = 1-P(new cand got picked)xP(the old element got discarded) = 1 - N/i x 1/N = 1 - 1/i. The probability of this old element surviving from start to the end of this round = P(the element survived previous rounds) x P(the element wasn't removed this round) = N/(i-1) x (1- 1/i) = N/(i-1) x (i-1)/i = N/i.
+
+This scheme ensures that each and every candidate gets picked of equal chance, because: for any rounds, the prob of the new candidate gets picked is the same as previous elements staying.
+
+<a href="https://gregable.com/2007/10/reservior-sampling.html">Greg Grothaus's explanation</a>
+<a href="blog.jobbole.com/42550/">Chinese Vers.</a>
