@@ -114,16 +114,16 @@ This scheme ensures that each and every candidate gets picked of equal chance, b
 - Binary Compatibility means that when something is updated, you continue to work without needing to even recompile. 
 - Source Compatibility means that you need to recompile to keep things working, but you don't have to actually change the sources. 
 
-<em>Yes Binary + Yes Source:</em>
+<strong>Yes Binary + Yes Source:</strong>
 Renaming private methods. Changing a method body in a way that continues to behave the same.
 
-<em>Yes Binary,  Not Source:</em>
+<strong>Yes Binary,  Not Source:</strong>
 Adding new method overloads.  Since overload resolution is determined at compile time, adding new methods won't affect already-compiled binaries. But if you recompile, it's possible that you may bind to the new overloads.  (For example, see float.Equals)
 
-<em>Not Binary, Yes Source:</em>
+<strong>Not Binary, Yes Source:</strong>
 In this case, you just need to recompile your sources to keep working. The compiler will respond to the change in a corrective way. For example, consider removing a method overload. At a binary level, the method you're bound to is removed and so things fail. But if you recompile, the compiler may bind to another overload that's semantically equivalent, and so things keep working without you having to change any source.
 
-<em>Not Binary, Not Source:</em>
+<strong>Not Binary, Not Source:</strong>
 A real breaking change. This requires clients to update their sources and recompile. For example, removing a method. 
 
 https://blogs.msdn.microsoft.com/jmstall/2008/03/10/binary-vs-source-compatibility/
