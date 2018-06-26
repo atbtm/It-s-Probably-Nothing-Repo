@@ -127,3 +127,6 @@ In this case, you just need to recompile your sources to keep working. The compi
 A real breaking change. This requires clients to update their sources and recompile. For example, removing a method. 
 
 https://blogs.msdn.microsoft.com/jmstall/2008/03/10/binary-vs-source-compatibility/
+
+# Diff between SessionFactory get(..) and load(..)
+- get runs the query right on the spot when the line is executed where load creates a proxy object, whose query only executes when the proxy's property is accessed. 
