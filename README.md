@@ -130,3 +130,7 @@ https://blogs.msdn.microsoft.com/jmstall/2008/03/10/binary-vs-source-compatibili
 
 # Diff between SessionFactory get(..) and load(..)
 - get runs the query right on the spot when the line is executed where load creates a proxy object, whose query only executes when the proxy's property is accessed. 
+
+# Running Java on Docker? You are breaking the law
+Very interesting article about legal implications when you use Oracle JRE in a docker image and why you should use OpenJDK for this purpose.
+https://blog.takipi.com/running-java-on-docker-youre-breaking-the-law/
