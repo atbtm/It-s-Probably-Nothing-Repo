@@ -134,3 +134,6 @@ https://blogs.msdn.microsoft.com/jmstall/2008/03/10/binary-vs-source-compatibili
 # Running Java on Docker? You are breaking the law
 Very interesting article about legal implications when you use Oracle JRE in a docker image and why you should use OpenJDK for this purpose.
 https://blog.takipi.com/running-java-on-docker-youre-breaking-the-law/
+
+# Java Coding Style
+<a href="https://google.github.io/styleguide/javaguide.html">Google Java Coding Guide</a>
