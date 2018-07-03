@@ -137,3 +137,13 @@ https://blog.takipi.com/running-java-on-docker-youre-breaking-the-law/
 
 # Java Coding Style
 <a href="https://google.github.io/styleguide/javaguide.html">Google Java Coding Guide</a>
+
+# On Algorithm complexities
+
+Asymptotically, log(n) grows no faster than log(n) (since it's the same), n, n^2, n^3 or 2^n.
+So we can say f(n) is O(log(n)), O(n), O(n^2), O(n^3), and O(2^n). -- "Upper bounded by big O"
+
+Asymptotically, log(n) grows at the same rate as log(n) (since it is the same).
+So, we can say that f(n) is Θ( log(n) ) -- "Upper and lower bounded by Theta"
+
+Lower bounded by Omega.
