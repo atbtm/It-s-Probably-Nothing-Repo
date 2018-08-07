@@ -147,3 +147,7 @@ Asymptotically, log(n) grows at the same rate as log(n) (since it is the same).
 So, we can say that f(n) is Θ( log(n) ) -- "Upper and lower bounded by Theta"
 
 Lower bounded by Omega.
+
+# Super Cool
+
+Most liquids expand when they freeze, because usually solids are more tightly packed compared to the mass of liquid. With few exeptions, including water. Water expands about 9% when freezes. If ice were denser than water.... Then no fish for you.
