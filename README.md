@@ -159,14 +159,20 @@ VS
 https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
 
 # How to import Groovy methods from other file
+```Groovy
 Class executeMethods = ((GroovyClassLoader) this.class.classLoader).parseClass new File("\\pathToFile.groovy")
 objectInstance = executeMethods.newInstance()
 objectInstance.someMethodInThatFile()
+```
 
-Or maybe evaluate(new File("../tools/Tools.groovy")) ?
+Or maybe ?
+```Groovy
+evaluate(new File("../tools/Tools.groovy"))
+```
 https://stackoverflow.com/a/9154553/6641032
 
 # Groovy MSSQL DB connection with Apache sql.sql
+```Groovy
 DBServer =  'localhost:59626'	// ### this pattern if you have multiple instance of DB server. The port number can be found from "Sql Server Configuration Manager" -> "SQL Server Network Configuration" then under the instance you want to connect to, TCP/IP, make sure it's enabled -> "IP Addresses" bottom "IPALL" 59626 is the TCP Dynamic Ports.
 DBName =  'DBNAME'
 DBUserid = 'username'
@@ -175,4 +181,4 @@ DBPassword = 'pw'
 def DBConnectionString  = "jdbc:jtds:sqlserver://" + DBServer+ "/"+ DBName
 def sqlDriver = "net.sourceforge.jtds.jdbc.Driver"	// some other driver
 sqlConn = Sql.newInstance(DBConnectionString, DBUserid, DBPassword, sqlDriver)
-
+```
