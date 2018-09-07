@@ -157,3 +157,12 @@ Most liquids expand when they freeze, because usually solids are more tightly pa
 VS
 - Stateless token (usually just saved in local storage, also can be a cookie)
 https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
+
+# How to import Groovy methods from other file
+Class executeMethods = ((GroovyClassLoader) this.class.classLoader).parseClass new File("\\pathToFile.groovy")
+objectInstance = executeMethods.newInstance()
+objectInstance.someMethodInThatFile()
+
+Or maybe evaluate(new File("../tools/Tools.groovy")) ?
+https://stackoverflow.com/a/9154553/6641032
+
