@@ -182,3 +182,7 @@ def DBConnectionString  = "jdbc:jtds:sqlserver://" + DBServer+ "/"+ DBName
 def sqlDriver = "net.sourceforge.jtds.jdbc.Driver"	// some other driver
 sqlConn = Sql.newInstance(DBConnectionString, DBUserid, DBPassword, sqlDriver)
 ```
+
+# Initializing a class variable
+Initialize -- 1) on spot when it's defined(can't handle exception). 2) in constructor. 3) initializer. Are equivalently handled by compiler.
+https://stackoverflow.com/questions/1994218/should-i-instantiate-instance-variables-on-declaration-or-in-the-constructor
