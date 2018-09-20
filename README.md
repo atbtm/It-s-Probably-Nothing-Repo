@@ -189,3 +189,6 @@ https://stackoverflow.com/questions/1994218/should-i-instantiate-instance-variab
 
 # How much calories it takes to digest food, and why 1 Cal in fat != 1 Cal in protein
 https://www.precisionnutrition.com/digesting-whole-vs-processed-foods
+
+# JVM memory model
+https://betsol.com/2017/06/java-memory-management-for-java-virtual-machine-jvm/
