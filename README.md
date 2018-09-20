@@ -186,3 +186,6 @@ sqlConn = Sql.newInstance(DBConnectionString, DBUserid, DBPassword, sqlDriver)
 # Initializing a class variable
 Initialize -- 1) on spot when it's defined(can't handle exception). 2) in constructor. 3) initializer. Are equivalently handled by compiler.
 https://stackoverflow.com/questions/1994218/should-i-instantiate-instance-variables-on-declaration-or-in-the-constructor
+
+# How much calories it takes to digest food, and why 1 Cal in fat != 1 Cal in protein
+https://www.precisionnutrition.com/digesting-whole-vs-processed-foods
