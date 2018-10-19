@@ -192,3 +192,12 @@ https://www.precisionnutrition.com/digesting-whole-vs-processed-foods
 
 # JVM memory model
 https://betsol.com/2017/06/java-memory-management-for-java-virtual-machine-jvm/
+
+# XML Marshalling/Unmarshalling Using JAXB
+https://dzone.com/articles/jooby-framework-overview
+@XmlRootElement specifies the root element for the XML document.
+
+@XmlAttribute specifies the attribute for the root element.
+
+@XmlElement specifies the sub-element for the root element.
+Then call JAXBContext marshaller methods to process to/from doc.
