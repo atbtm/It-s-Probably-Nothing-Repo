@@ -201,3 +201,6 @@ https://dzone.com/articles/jooby-framework-overview
 
 @XmlElement specifies the sub-element for the root element.
 Then call JAXBContext marshaller methods to process to/from doc.
+
+# Java why are local variables uninitiated/have no default val?
+https://stackoverflow.com/a/415714/6641032
