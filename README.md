@@ -204,3 +204,8 @@ Then call JAXBContext marshaller methods to process to/from doc.
 
 # Java why are local variables uninitiated/have no default val?
 https://stackoverflow.com/a/415714/6641032
+
+
+# SSMS - how to connect to containerized sql server
+(xxx.xx.xx.xxx,port). E.g. 127.0.0.1,1433. Must use sa + password to connect.
+https://stackoverflow.com/questions/47984603/using-sql-server-management-studio-to-remote-connect-to-docker-container
