@@ -211,3 +211,6 @@ https://stackoverflow.com/questions/47984603/using-sql-server-management-studio-
 
 # Java HashMap 扩容机制
 https://blog.csdn.net/xiongxianze/article/details/70210437
+
+# Self-fulfilling prophecy
+https://en.wikipedia.org/wiki/Self-fulfilling_prophecy
