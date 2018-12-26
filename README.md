@@ -214,3 +214,7 @@ https://blog.csdn.net/xiongxianze/article/details/70210437
 
 # Self-fulfilling prophecy
 https://en.wikipedia.org/wiki/Self-fulfilling_prophecy
+
+# ANTD的圣诞节彩蛋
+https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a
+https://github.com/ant-design/ant-design/issues/13848
