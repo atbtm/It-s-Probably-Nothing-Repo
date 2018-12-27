@@ -218,3 +218,7 @@ https://en.wikipedia.org/wiki/Self-fulfilling_prophecy
 # ANTD的圣诞节彩蛋
 https://github.com/ant-design/ant-design/commit/00aebeb9756afecc884ad48486084836b9a2707a
 https://github.com/ant-design/ant-design/issues/13848
+
+# On RESTful API design
+https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
+https://hackernoon.com/restful-api-design-step-by-step-guide-2f2c9f9fcdbf
