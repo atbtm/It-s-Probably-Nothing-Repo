@@ -222,3 +222,6 @@ https://github.com/ant-design/ant-design/issues/13848
 # On RESTful API design
 https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
 https://hackernoon.com/restful-api-design-step-by-step-guide-2f2c9f9fcdbf
+
+# Data Access: raw JDBC vs JPA
+https://medium.com/@Colin_But/spring-data-jpa-vs-raw-jdbc-e3492354d2ab
