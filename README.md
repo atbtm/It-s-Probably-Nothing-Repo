@@ -227,6 +227,7 @@ https://hackernoon.com/restful-api-design-step-by-step-guide-2f2c9f9fcdbf
 https://medium.com/@Colin_But/spring-data-jpa-vs-raw-jdbc-e3492354d2ab
 
 # Notes on Regex match group
+```Java
 userRepository.save(User.of("AAA", 10));
 userRepository.save(User.of("BBB", 20));
 userRepository.save(User.of("CCC", 30));
@@ -237,5 +238,7 @@ userRepository.save(User.of("GGG", 70));
 userRepository.save(User.of("HHH", 80));
 userRepository.save(User.of("III", 90));
 userRepository.save(User.of("JJJ", 100));
+```
 replace: new User\("(.+)", (\d*)\)
+
 with:    User.of\("\1", \2\)
