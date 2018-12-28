@@ -239,6 +239,6 @@ userRepository.save(User.of("HHH", 80));
 userRepository.save(User.of("III", 90));
 userRepository.save(User.of("JJJ", 100));
 ```
-replace: new User\("(.+)", (\d*)\)
+replace: new User\\("(.+)", (\d*)\\)
 
-with:    User.of\("\1", \2\)
+with:    User.of\\("\1", \2\\)
