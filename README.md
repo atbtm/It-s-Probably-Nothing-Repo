@@ -242,3 +242,8 @@ userRepository.save(User.of("JJJ", 100));
 replace: new User\\("(.+)", (\d*)\\)
 
 with:    User.of\\("\1", \2\\)
+
+# A great discussion on trade-offs to use Java primitive type vs their wrapped objects
+Time, space, and default value (depending on use cases, having a default value can be pro/con)
+
+https://www.baeldung.com/java-primitives-vs-objects
