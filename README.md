@@ -247,3 +247,6 @@ with:    User.of\\("\1", \2\\)
 Time, space, and default value (depending on use cases, having a default value can be pro/con)
 
 https://www.baeldung.com/java-primitives-vs-objects
+
+# git log two dots vs three dots
+https://stackoverflow.com/a/24186641/6641032
