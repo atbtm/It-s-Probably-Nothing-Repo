@@ -250,3 +250,6 @@ https://www.baeldung.com/java-primitives-vs-objects
 
 # git log two dots vs three dots
 https://stackoverflow.com/a/24186641/6641032
+
+# A recursive tutorial on How To Google :D
+http://www.lmgtfy.com/?q=how+to+google
