@@ -253,3 +253,8 @@ https://stackoverflow.com/a/24186641/6641032
 
 # A recursive tutorial on How To Google :D
 http://www.lmgtfy.com/?q=how+to+google
+
+# Great intro series to Git internals (that is actually comprehensible)
+http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html
+http://alblue.bandlem.com/2011/08/git-tip-of-week-trees.html
+http://alblue.bandlem.com/2011/09/git-tip-of-week-commits.html
