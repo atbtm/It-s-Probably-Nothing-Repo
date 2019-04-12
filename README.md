@@ -256,3 +256,6 @@ http://www.lmgtfy.com/?q=how+to+google
 
 # Great intro series to Git internals (that is actually comprehensible)
 http://alblue.bandlem.com/Tag/gtotw/
+
+# Why shouldn't you use global variables
+https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil
