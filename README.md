@@ -259,3 +259,6 @@ http://alblue.bandlem.com/Tag/gtotw/
 
 # Why shouldn't you use global variables
 https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil
+
+# Referential Integraty - Foreign key thoughts
+https://dataedo.com/blog/why-there-are-no-foreign-keys-in-your-database-referential-integrity-checks
