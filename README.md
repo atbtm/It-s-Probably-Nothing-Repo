@@ -262,3 +262,6 @@ https://softwareengineering.stackexchange.com/questions/148108/why-is-global-sta
 
 # Referential Integraty - Foreign key thoughts
 https://dataedo.com/blog/why-there-are-no-foreign-keys-in-your-database-referential-integrity-checks
+
+# Hash with Salt & rainbow table attacks
+https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/
