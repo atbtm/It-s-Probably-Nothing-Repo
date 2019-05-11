@@ -266,3 +266,6 @@ https://dataedo.com/blog/why-there-are-no-foreign-keys-in-your-database-referent
 # Hash with Salt & rainbow table attacks
 https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/
 https://security.stackexchange.com/questions/17421/how-to-store-salt
+
+# Range Query by Binary Indexed Tree
+https://blog.csdn.net/Firehotest/article/details/78138165
