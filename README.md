@@ -269,3 +269,6 @@ https://security.stackexchange.com/questions/17421/how-to-store-salt
 
 # Range Query by Binary Indexed Tree
 https://blog.csdn.net/Firehotest/article/details/78138165
+
+# OpenJdk default hashCode() impl
+https://srvaroa.github.io/jvm/java/openjdk/biased-locking/2017/01/30/hashCode.html
