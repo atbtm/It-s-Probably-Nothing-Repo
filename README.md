@@ -275,3 +275,7 @@ https://srvaroa.github.io/jvm/java/openjdk/biased-locking/2017/01/30/hashCode.ht
 
 # Does Java compiler optimize divide 2 to bit shift?
 https://stackoverflow.com/a/21617265
+
+# Project Management Methodologies in a pic
+https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/The-Ultimate-Guide-to-PM-Methodologies-flowchart.png
+https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum
