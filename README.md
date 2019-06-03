@@ -279,3 +279,6 @@ https://stackoverflow.com/a/21617265
 # Project Management Methodologies in a pic
 https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/The-Ultimate-Guide-to-PM-Methodologies-flowchart.png
 https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum
+
+# On DB sharding using AWS RDS
+https://aws.amazon.com/blogs/database/sharding-with-amazon-relational-database-service/
