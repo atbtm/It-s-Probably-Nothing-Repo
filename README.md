@@ -282,3 +282,7 @@ https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum
 
 # On DB sharding using AWS RDS
 https://aws.amazon.com/blogs/database/sharding-with-amazon-relational-database-service/
+
+# OG
+http://www.lasikathome.com/
+http://www.lasikathome.com/foureasysteps.htm
