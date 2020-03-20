@@ -286,3 +286,7 @@ https://aws.amazon.com/blogs/database/sharding-with-amazon-relational-database-s
 # OG
 http://www.lasikathome.com/
 http://www.lasikathome.com/foureasysteps.htm
+
+# BloomFilter
+Use multiple hash functions to hash to bit vector. Determine if definitely miss, or probably hit (since collision).
+https://llimllib.github.io/bloomfilter-tutorial/
